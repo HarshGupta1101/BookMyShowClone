@@ -13,7 +13,7 @@ const MovieInfo = ({ movie }) => {
         setPrice(149);
     };
 
-    const butMovies = () => {
+    const buyMovies = () => {
         setIsOpen(true);
         setPrice(599);
     };
@@ -40,7 +40,7 @@ const MovieInfo = ({ movie }) => {
                         Rent ₹149
                     </button>
                     <button
-                        onClick={butMovies}
+                        onClick={buyMovies}
                         className="bg-red-500 w-full py-3 text-white font-semibold rounded-lg"
                     >
                         Buy ₹599
